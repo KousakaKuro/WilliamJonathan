@@ -1,0 +1,220 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Fallback font */
+}
+
+body {
+    background-color: #050505;
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    z-index: 10;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo,
+header nav a,
+header .hire-me-btn {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+header.transparent-header nav ul li a:hover {
+    color: #bb8bf1;
+}
+
+header nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+header nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hire-me-btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hire-me-btn:hover {
+    background: white;
+    color: #000;
+}
+
+.resume {
+    padding: 60px 0;
+}
+
+.resume-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-header {
+    margin-bottom: 40px;
+}
+
+.resume-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.resume-header p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "FuturaMedium";
+}
+
+.resume-header p a {
+    color: #bb8bf1;
+    font-family: 'FuturaMedium';
+}
+
+.resume-section {
+    margin-bottom: 40px;
+    font-family: 'FuturaMedium';
+}
+
+.resume-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: 'FuturaBoldItalic';
+}
+
+.resume-section ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.resume-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    font-family: 'FuturaBold';
+}
+
+.resume-section ul li{
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-family: 'FuturaMedium';
+}
+
+.resume-section p {
+    font-family: 'FuturaMedium';
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.resume-section strong {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: white;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .resume-content {
+        padding: 0 20px;
+    }
+}
+
+.languages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages-list li {
+    margin-bottom: 10px;
+}
+
+.language-bar {
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.language-level {
+    height: 100%;
+    width: 0;
+    background-color: #bb8bf1;
+}
+
+.language-level-98 {
+    width: 98%;
+}
+
+.language-level-100 {
+    width: 100%;
+}
+
+.language-level-45 {
+    width: 45%;
+}
+
+.language-level-55 {
+    width: 55%;
+}

@@ -1,0 +1,20 @@
+title: William Jonathan
+email: william.jonathan.liem@gmail.com
+description: >-
+  Personal portfolio website
+baseurl: ""
+url: "https://kousakakuro.github.io"
+
+# Favicon settings (optional, based on your custom layout)
+favicon: "/assets/img/favicon.ico"
+
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
+- jekyll-seo-tag
+
+plugins:
+  - jekyll-redirect-from
