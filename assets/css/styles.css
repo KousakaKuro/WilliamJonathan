@@ -129,52 +129,42 @@ header nav a:hover::after {
 
 .hero {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-image: url('assets/img/BackgroundHero.jpg');
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
 .hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    padding: 0 50px;
-}
-
-.hero-content {
-    color: white;
-    text-align: left;
-    max-width: 45%;
-    z-index: 1;
+    max-width: 800px;
+    text-align: center;
 }
 
 .hero h1 {
     font-size: 60px;
-    line-height: 1.2;
-    margin-bottom: 10px;
     font-family: 'FuturaBold', Arial, sans-serif;
+    font-weight: normal;
 }
 
-.hero h2 {
-    font-size: 2em;
-    line-height: 1.2;
-    font-family: 'FuturaBoldItalic', Arial, sans-serif;
+.name-highlight {
+    font-family: 'FuturaBold', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #bb8bf1;
 }
 
-.hero-spline {
-    width: 55%;
-    height: 100%;
-    z-index: 0;
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: #bb8bf1;
+    margin: 20px auto;
+    opacity: 0.5;
 }
 
-.hero-spline spline-viewer {
-    width: 100%;
-    height: 100%;
-}
 
 .about-me {
     padding: 60px 50px;
