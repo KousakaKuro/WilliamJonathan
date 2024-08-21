@@ -1,35 +1,35 @@
 @font-face {
     font-family: 'Trap Regular';
-    src: url('../assets/fonts/Trap_/Trap-Regular.woff2') format('woff2'),
-         url('../assets/fonts/Trap_/Trap-Regular.woff') format('woff'),
-         url('../assets/fonts/Trap_/Trap-Regular.otf') format('opentype');
+    src: url('../../assets/fonts/Trap_/Trap-Regular.woff2') format('woff2'),
+         url('../../assets/fonts/Trap_/Trap-Regular.woff') format('woff'),
+         url('../../assets/fonts/Trap_/Trap-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Trap Bold';
-    src: url('../assets/fonts/Trap_/Trap-Bold.woff2') format('woff2'),
-         url('../assets/fonts/Trap_/Trap-Bold.woff') format('woff'),
-         url('../assets/fonts/Trap_/Trap-Bold.otf') format('opentype');
+    src: url('../../assets/fonts/Trap_/Trap-Bold.woff2') format('woff2'),
+         url('../../assets/fonts/Trap_/Trap-Bold.woff') format('woff'),
+         url('../../assets/fonts/Trap_/Trap-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Trap Medium';
-    src: url('../assets/fonts/Trap_/Trap-Medium.woff2') format('woff2'),
-         url('../assets/fonts/Trap_/Trap-Medium.woff') format('woff'),
-         url('../assets/fonts/Trap_/Trap-Medium.otf') format('opentype');
+    src: url('../../assets/fonts/Trap_/Trap-Medium.woff2') format('woff2'),
+         url('../../assets/fonts/Trap_/Trap-Medium.woff') format('woff'),
+         url('../../assets/fonts/Trap_/Trap-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Trap Light';
-    src: url('../assets/fonts/Trap_/Trap-Light.woff2') format('woff2'),
-         url('../assets/fonts/Trap_/Trap-Light.woff') format('woff'),
-         url('../assets/fonts/Trap_/Trap-Light.otf') format('opentype');
+    src: url('../../assets/fonts/Trap_/Trap-Light.woff2') format('woff2'),
+         url('../../assets/fonts/Trap_/Trap-Light.woff') format('woff'),
+         url('../../assets/fonts/Trap_/Trap-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
