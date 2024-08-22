@@ -167,7 +167,7 @@ nav ul li a:hover {
 .hero {
     position: relative;
     height: 85vh;
-    background: linear-gradient(45deg, #7249f1, #1478c3, #16aeb5, #73a5e9, #957ef2, #f27e7e);
+    background: linear-gradient(45deg, #7249f1, #BEDC74, #16aeb5, #957ef2, #f27e7e, #83ff3b);
     background-size: 300% 300%;
     animation: gradientBG 5s ease infinite;
     display: flex;
